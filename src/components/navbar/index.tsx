@@ -1,4 +1,8 @@
 import '../../styles/styles.scss';
+import Linkedin from '@/assets/svgs/linkedin.svg';
+import Github from '@/assets/svgs/github.svg';
+import Mail from '@/assets/svgs/mail.svg';
+import Image from 'next/image';
 const Navbar = () => {
   return (
     <main>
@@ -34,7 +38,7 @@ const Navbar = () => {
         <div>
           <ul className="social-media">
             <li>
-              <i className="fa-brands fa-linkedin-in"></i>
+              <Image src={Linkedin} width={15} height={15} alt="" />
               <a
                 href="https://www.linkedin.com/in/tanmoy-saha-7724b5195/"
                 target="_blank"
@@ -43,14 +47,14 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <i className="fa-brands fa-github"></i>
-              <a href="https://github.com/TanmoyTSSaha" target="_blank">
+              <Image src={Github} width={15} height={15} alt="" />
+              <a href="https://github.com/niltonc" target="_blank">
                 Github
               </a>
             </li>
             <li>
-              <i className="fa-regular fa-envelope"></i>
-              <a href="mailto:tanmoytssaha@gmail.com">Email</a>
+              <Image src={Mail} width={15} height={15} alt="" />
+              <a href="mailto:niltoncesarjr1@gmail.com">Email</a>
             </li>
           </ul>
         </div>
