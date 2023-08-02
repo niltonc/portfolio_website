@@ -1,4 +1,5 @@
-import '../../styles/styles.scss';
+import '@/styles/styles.scss';
+
 import Linkedin from '@/assets/svgs/linkedin.svg';
 import Github from '@/assets/svgs/github.svg';
 import Mail from '@/assets/svgs/mail.svg';
